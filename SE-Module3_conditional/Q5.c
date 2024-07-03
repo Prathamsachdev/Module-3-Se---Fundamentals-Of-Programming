@@ -1,0 +1,26 @@
+// Check Number Is Positive or Negative
+
+#include<stdio.h>
+
+int main() 
+{
+	int number;
+	
+	printf("Enter number : ");
+	scanf("%d", &number);
+	
+	if(number < 0)
+	{
+		printf("Number is Negative !");
+	}
+	else if(number > 0)
+	{
+		printf("Number is Positive. ");
+	}
+	else 
+	{
+		printf("Number is Nutural !");
+	}
+	
+	return 0;
+}
